@@ -1,0 +1,38 @@
+/*@font-face {
+  font-family: 'font1';
+  src: url('fonts/Neuropol.otf') format('opentype'); /* O .otf si es OpenType */
+/*font-weight: normal;
+  font-style: normal;
+}
+*/
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  font-size: calc(10px + 2vw);
+  font-family: 'Orbitron', monospace, sans-serif;
+  color: rgb(150, 20, 20);
+  text-align: center;
+}
+
+.typed-container {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.cursor {
+  display: inline-block;
+  font-size: 1em;
+  color: rgb(150, 20, 20);
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
