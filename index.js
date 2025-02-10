@@ -16,7 +16,7 @@ function typeEffect() {
     } else {
         typedTextElement.textContent = currentText.substring(0, charIndex + 1);
         charIndex++;
-        typingSpeed = 100; // Escritura más lenta
+        typingSpeed = 125; // Escritura más lenta
     }
 
     if (!isDeleting && charIndex === currentText.length) {
