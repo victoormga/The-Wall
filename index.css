@@ -15,7 +15,7 @@ body {
   background-color: #000;
   font-size: calc(10px + 2vw);
   font-family: 'Orbitron', monospace, sans-serif;
-  color: rgb(150, 20, 20);
+  color: rgba(255, 48, 48, 0.852);
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ body {
 .cursor {
   display: inline-block;
   font-size: 1em;
-  color: rgb(150, 20, 20);
+  color: rgb(255, 48, 48);
   animation: blink 0.7s infinite;
 }
 
