@@ -1,4 +1,4 @@
-##The Wall
+THE WALL
 
 Proyect about a web that sells art
 
