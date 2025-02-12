@@ -31,5 +31,10 @@ function typeEffect() {
     setTimeout(typeEffect, typingSpeed);
 }
 
-// Iniciar la animación
-typeEffect();
+// Mostrar el texto con transición y luego iniciar la animación de escritura
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(() => {
+    document.querySelector(".typed-container").classList.add("show");
+    typeEffect(); // Iniciar la animación después de mostrar el texto
+  }, 500); // Aparece después de medio segundo
+});

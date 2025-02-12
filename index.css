@@ -17,11 +17,21 @@ body {
   font-family: 'Orbitron', monospace, sans-serif;
   color: rgba(255, 48, 48, 0.852);
   text-align: center;
+  position: relative; /* Para que los elementos absolutos se posicionen respecto a esto */
 }
 
 .typed-container {
-  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   white-space: nowrap;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.typed-container.show {
+  opacity: 1;
 }
 
 .cursor {
